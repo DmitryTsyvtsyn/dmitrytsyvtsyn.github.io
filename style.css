@@ -1,3 +1,4 @@
+/* common rules */
 body {
 	padding: 0px;
 	margin: 0px;
@@ -7,6 +8,11 @@ p {
 	margin: 0px;
 }
 
+.start-margin-small {
+	margin-left: 12px;
+}
+
+/* header rules  */
 .header {
 	max-width: 640px;
 	margin: 0px auto;
@@ -17,12 +23,6 @@ p {
 
 .header-background {
 	background: rgba(89, 167, 167, 0.1);
-}
-
-.content {
-	max-width: 640px;
-	margin: auto;
-	padding: 16px;
 }
 
 .title-block {
@@ -46,10 +46,6 @@ p {
 	border-color: #00e676;
 }
 
-.start-margin-small {
-	margin-left: 12px;
-}
-
 .social-block {
 	margin-top: 16px;
 }
@@ -64,6 +60,13 @@ p {
 	border-radius: 50%;
 }
 
+/* content rules */
+.content {
+	max-width: 640px;
+	margin: auto;
+	padding: 16px;
+}
+
 .body-text {
 	font-family: "Open Sans", sans-serif;
 	font-size: 20px;
@@ -76,6 +79,7 @@ p {
 	color: #59a7a7;
 }
 
+/* adaptive rules */
 @media only screen and (max-width: 520px) {
 	.header {
 		flex-direction: column;
